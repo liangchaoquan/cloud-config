@@ -1,2 +1,2 @@
-info
-  : profile:delete
+info: 
+  profile: delete

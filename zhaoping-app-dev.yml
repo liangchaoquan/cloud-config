@@ -1,4 +1,2 @@
-spring:
-  datasource:
-    url: jdbc:oracle:thin:@120.78.83.131:1521:zpappdev
+url: jdbc:oracle:thin:@120.78.83.131:1521:zpappdev
  

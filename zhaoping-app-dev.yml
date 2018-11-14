@@ -1,0 +1,20 @@
+server:
+  port: 9292
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9290/eureka/
+      
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@120.78.83.131:1521:zpappdev
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: nw_zp_qt
+    password: nw_zp_qt
+    max-active: 200
+  application:
+    name: zhaopin-announcement-server
+ 
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
